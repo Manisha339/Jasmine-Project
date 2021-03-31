@@ -1,5 +1,4 @@
 var factorial = require('../app');
-
 describe("Factorial Functionality", () => {
 
     it("should perform factorial for positive numbers", () => {
@@ -10,5 +9,4 @@ describe("Factorial Functionality", () => {
         const result = factorial(-5);
         expect(result).toEqual(1);
     });
-
 });
